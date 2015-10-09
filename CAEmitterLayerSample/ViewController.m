@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MusicView.h"
+#import "SnowView.h"
 
 @interface ViewController ()
 
@@ -17,12 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor grayColor];
     
-    CAEmitterLayerView * view = [[MusicView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    CAEmitterLayerView * layerView = [[SnowView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     
-    [self.view addSubview:view];
+    [self.view addSubview:layerView];
     
-    [view show];
+    [layerView show];
 }
 
 
