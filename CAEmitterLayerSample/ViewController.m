@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MusicView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CAEmitterLayerView * view = [[MusicView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    [self.view addSubview:view];
+    
+    [view show];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
