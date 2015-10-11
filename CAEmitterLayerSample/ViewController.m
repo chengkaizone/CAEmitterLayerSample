@@ -8,7 +8,16 @@
 
 #import "ViewController.h"
 #import "SnowView.h"
+#import "DazFireworkView.h"
+#import "DazSnowView.h"
+#import "DazFireView.h"
+#import "DazTouchView.h"
 
+
+/**
+ *  本例子使用了Lichtschlag/Dazzle中的源码进行封装成了UIView,感谢原作者的分享
+ *  我不太会使用github作声明原作者的成果,望见谅,故而在源码中声明
+ */
 @interface ViewController ()
 
 @end
@@ -19,11 +28,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
     
-    CAEmitterLayerView * layerView = [[SnowView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    CAEmitterLayerView * layerView = [[DazFireView alloc] initWithFrame:self.view.frame];
     
     [self.view addSubview:layerView];
     
     [layerView show];
+    
+    
+    
 }
 
 

@@ -18,6 +18,8 @@
 - (void)setEmitterLayer:(CAEmitterLayer *)layer;
 - (CAEmitterLayer *)emitterLayer;
 
+- (void)setup;
+
 - (void)show;
 
 - (void)hide;

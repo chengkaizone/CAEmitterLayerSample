@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B5126F1BC9F39D0031FF1E /* DazFireworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B5126E1BC9F39D0031FF1E /* DazFireworkView.m */; settings = {ASSET_TAGS = (); }; };
+		12B512781BC9F7640031FF1E /* DazFire.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B512711BC9F7640031FF1E /* DazFire.png */; settings = {ASSET_TAGS = (); }; };
+		12B512791BC9F7640031FF1E /* DazFlake.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B512721BC9F7640031FF1E /* DazFlake.png */; settings = {ASSET_TAGS = (); }; };
+		12B5127A1BC9F7640031FF1E /* DazHeart.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B512731BC9F7640031FF1E /* DazHeart.png */; settings = {ASSET_TAGS = (); }; };
+		12B5127B1BC9F7640031FF1E /* DazRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B512741BC9F7640031FF1E /* DazRing.png */; settings = {ASSET_TAGS = (); }; };
+		12B5127C1BC9F7640031FF1E /* DazSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B512751BC9F7640031FF1E /* DazSmoke.png */; settings = {ASSET_TAGS = (); }; };
+		12B5127D1BC9F7640031FF1E /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B512761BC9F7640031FF1E /* DazStarOutline.png */; settings = {ASSET_TAGS = (); }; };
+		12B5127E1BC9F7640031FF1E /* DazTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B512771BC9F7640031FF1E /* DazTriangle.png */; settings = {ASSET_TAGS = (); }; };
+		12B512811BC9F7D70031FF1E /* DazSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512801BC9F7D70031FF1E /* DazSnowView.m */; settings = {ASSET_TAGS = (); }; };
+		12B512841BC9F91F0031FF1E /* DazFireView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512831BC9F91F0031FF1E /* DazFireView.m */; settings = {ASSET_TAGS = (); }; };
+		12B512871BC9FBC20031FF1E /* DazTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512861BC9FBC20031FF1E /* DazTouchView.m */; settings = {ASSET_TAGS = (); }; };
 		12EB92701BC5787A00D8C0B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EB926F1BC5787A00D8C0B0 /* main.m */; };
 		12EB92731BC5787A00D8C0B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EB92721BC5787A00D8C0B0 /* AppDelegate.m */; };
 		12EB92761BC5787A00D8C0B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EB92751BC5787A00D8C0B0 /* ViewController.m */; };
@@ -20,6 +31,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12B5126D1BC9F39D0031FF1E /* DazFireworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DazFireworkView.h; sourceTree = "<group>"; };
+		12B5126E1BC9F39D0031FF1E /* DazFireworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DazFireworkView.m; sourceTree = "<group>"; };
+		12B512711BC9F7640031FF1E /* DazFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFire.png; sourceTree = "<group>"; };
+		12B512721BC9F7640031FF1E /* DazFlake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFlake.png; sourceTree = "<group>"; };
+		12B512731BC9F7640031FF1E /* DazHeart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazHeart.png; sourceTree = "<group>"; };
+		12B512741BC9F7640031FF1E /* DazRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazRing.png; sourceTree = "<group>"; };
+		12B512751BC9F7640031FF1E /* DazSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazSmoke.png; sourceTree = "<group>"; };
+		12B512761BC9F7640031FF1E /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
+		12B512771BC9F7640031FF1E /* DazTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazTriangle.png; sourceTree = "<group>"; };
+		12B5127F1BC9F7D70031FF1E /* DazSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DazSnowView.h; sourceTree = "<group>"; };
+		12B512801BC9F7D70031FF1E /* DazSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DazSnowView.m; sourceTree = "<group>"; };
+		12B512821BC9F91F0031FF1E /* DazFireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DazFireView.h; sourceTree = "<group>"; };
+		12B512831BC9F91F0031FF1E /* DazFireView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DazFireView.m; sourceTree = "<group>"; };
+		12B512851BC9FBC20031FF1E /* DazTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DazTouchView.h; sourceTree = "<group>"; };
+		12B512861BC9FBC20031FF1E /* DazTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DazTouchView.m; sourceTree = "<group>"; };
 		12EB926B1BC5787A00D8C0B0 /* CAEmitterLayerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAEmitterLayerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EB926F1BC5787A00D8C0B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12EB92711BC5787A00D8C0B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,6 +75,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B512701BC9F7490031FF1E /* recource */ = {
+			isa = PBXGroup;
+			children = (
+				12B512711BC9F7640031FF1E /* DazFire.png */,
+				12B512721BC9F7640031FF1E /* DazFlake.png */,
+				12B512731BC9F7640031FF1E /* DazHeart.png */,
+				12B512741BC9F7640031FF1E /* DazRing.png */,
+				12B512751BC9F7640031FF1E /* DazSmoke.png */,
+				12B512761BC9F7640031FF1E /* DazStarOutline.png */,
+				12B512771BC9F7640031FF1E /* DazTriangle.png */,
+				12EB92951BC5909100D8C0B0 /* snow@2x.png */,
+			);
+			name = recource;
+			sourceTree = "<group>";
+		};
+		12B512881BCA04170031FF1E /* Dazzle */ = {
+			isa = PBXGroup;
+			children = (
+				12B5126D1BC9F39D0031FF1E /* DazFireworkView.h */,
+				12B5126E1BC9F39D0031FF1E /* DazFireworkView.m */,
+				12B5127F1BC9F7D70031FF1E /* DazSnowView.h */,
+				12B512801BC9F7D70031FF1E /* DazSnowView.m */,
+				12B512821BC9F91F0031FF1E /* DazFireView.h */,
+				12B512831BC9F91F0031FF1E /* DazFireView.m */,
+				12B512851BC9FBC20031FF1E /* DazTouchView.h */,
+				12B512861BC9FBC20031FF1E /* DazTouchView.m */,
+			);
+			name = Dazzle;
+			sourceTree = "<group>";
+		};
 		12EB92621BC5787A00D8C0B0 = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +132,8 @@
 				12EB92901BC5820100D8C0B0 /* CAEmitterLayerView.m */,
 				12EB92921BC5856200D8C0B0 /* SnowView.h */,
 				12EB92931BC5856200D8C0B0 /* SnowView.m */,
-				12EB92951BC5909100D8C0B0 /* snow@2x.png */,
+				12B512881BCA04170031FF1E /* Dazzle */,
+				12B512701BC9F7490031FF1E /* recource */,
 				12EB92771BC5787A00D8C0B0 /* Main.storyboard */,
 				12EB927D1BC5787A00D8C0B0 /* Assets.xcassets */,
 				12EB927F1BC5787A00D8C0B0 /* LaunchScreen.storyboard */,
@@ -152,10 +209,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B5127E1BC9F7640031FF1E /* DazTriangle.png in Resources */,
+				12B512781BC9F7640031FF1E /* DazFire.png in Resources */,
 				12EB92811BC5787A00D8C0B0 /* LaunchScreen.storyboard in Resources */,
 				12EB92961BC5909100D8C0B0 /* snow@2x.png in Resources */,
+				12B5127A1BC9F7640031FF1E /* DazHeart.png in Resources */,
 				12EB927E1BC5787A00D8C0B0 /* Assets.xcassets in Resources */,
+				12B5127B1BC9F7640031FF1E /* DazRing.png in Resources */,
+				12B5127C1BC9F7640031FF1E /* DazSmoke.png in Resources */,
 				12EB92791BC5787A00D8C0B0 /* Main.storyboard in Resources */,
+				12B5127D1BC9F7640031FF1E /* DazStarOutline.png in Resources */,
+				12B512791BC9F7640031FF1E /* DazFlake.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,11 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B512841BC9F91F0031FF1E /* DazFireView.m in Sources */,
 				12EB92761BC5787A00D8C0B0 /* ViewController.m in Sources */,
 				12EB92731BC5787A00D8C0B0 /* AppDelegate.m in Sources */,
+				12B5126F1BC9F39D0031FF1E /* DazFireworkView.m in Sources */,
 				12EB92911BC5820100D8C0B0 /* CAEmitterLayerView.m in Sources */,
 				12EB927C1BC5787A00D8C0B0 /* CAEmitterLayerSample.xcdatamodeld in Sources */,
+				12B512871BC9FBC20031FF1E /* DazTouchView.m in Sources */,
 				12EB92701BC5787A00D8C0B0 /* main.m in Sources */,
+				12B512811BC9F7D70031FF1E /* DazSnowView.m in Sources */,
 				12EB92941BC5856200D8C0B0 /* SnowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

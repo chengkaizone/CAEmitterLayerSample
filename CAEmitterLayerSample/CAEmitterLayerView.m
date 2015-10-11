@@ -25,6 +25,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         _emitterLayer = (CAEmitterLayer*)self.layer;
+        [self setup];
     }
     return self;
 }
@@ -37,13 +38,18 @@
     return _emitterLayer;
 }
 
+- (void)setup {
+    // 子类初始化
+}
 
 - (void)show{
+    [self.layer setHidden:NO];//子类必须调用super
+    // 子类实现
     
 }
 
 - (void)hide{
-    
+    [self.layer setHidden:YES];
 }
 
 
